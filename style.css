@@ -2,3 +2,16 @@ html {
   height: 50%;
   width: 50%;
 }
+img {
+  width: 100%;
+  max-width: 400px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
