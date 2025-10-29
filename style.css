@@ -1,17 +1,29 @@
+/* Faz o site ocupar a tela toda */
 html {
-  height: 50%;
-  width: 50%;
+  width: 100%;
+  height: 100%;
 }
+
+/* Faz as imagens se ajustarem automaticamente */
 img {
   width: 100%;
   max-width: 400px;
+  height: auto;
 }
+
+/* Ajustes para telas menores (celulares, tablets) */
 @media (max-width: 768px) {
   body {
     font-size: 14px;
+    padding: 10px;
   }
 
   img {
     width: 100%;
+    max-width: 100%;
   }
 }
+
+  
+
+
